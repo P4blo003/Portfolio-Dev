@@ -1,9 +1,15 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import Card from '../components/Card.astro';
+import Badge from '../components/Badge.astro';
 ---
 
-<Layout title="Welcome to Astro.">
+<Layout title="Portfolio">
 	<main>
+		<section class="w-full lg:w-[600px] mx-auto py-44">
+			<h1 class="text-white text-5xl font-bold flex flex-row gap-x-4 pb-10">
+			Hola, soy Pablo<div class="flex justify-center items-center"><Badge>Estudiando</Badge></div>
+			</h1>
+			<h2 class="text-xl opacity-80">Soy estudiante de ingeniería informática. De Gijón, España.</h2>
+		</section>
 	</main>
 </Layout>
