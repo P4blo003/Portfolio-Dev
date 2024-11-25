@@ -1,34 +1,21 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import Badge from '../components/Badge.astro';
-import SocialBadge from '../components/SocialBadge.astro';
-import GitHubIcon from '../icons/GitHubIcon.astro';
-import LinkedinIcon from '../icons/LinkedinIcon.astro';
-import MailIcon from '../icons/MailIcon.astro';
 ---
 
 <Layout title="Portfolio | Pablo - Estudiante Ingeniería Informática"
 	description="">
 	<main>
-		<section class="w-full lg:w-[600px] mx-auto py-44">
-			<h1 class="text-white text-5xl font-bold flex flex-row gap-x-4 pb-10">
-			Hola, soy Pablo<div class="flex justify-center items-center"><Badge>Estudiando</Badge></div>
+		<section id="start" class="w-full mx-auto lg:w-[740px] py-44">
+			<h1 class="text-white text-5xl font-bold flex flex-row  gap-x-4 pb-4">
+				Hey, soy Pablo.
+				<div class="flex justify-center items-center">
+					<Badge>Estudiando</Badge>
+				</div>
 			</h1>
-			<h2 class="text-xl opacity-80">Soy estudiante de ingeniería informática. De Gijón, España.</h2>
-			<nav class="flex gap-x-4 mt-8">
-				<SocialBadge href="">
-					<LinkedinIcon class="size-6"/>
-					Linkedin
-				</SocialBadge>
-				<SocialBadge href="https://github.com/P4blo003">
-					<GitHubIcon class="size-6"/>
-					GitHub
-				</SocialBadge>
-				<SocialBadge href="">
-					<MailIcon class="size-6"/>
-					pablogonzalezgarcia003@gmail.com
-				</SocialBadge>
-			</nav>
+			<h2 class="text-2xl opacity-80">
+				Estudiante de Ingeniería informática en la Escuela Politécnica de Gijón.
+			</h2>
 		</section>
 	</main>
 </Layout>
